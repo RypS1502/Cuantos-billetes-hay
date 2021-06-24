@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billetes</title>
+    <link type="text/css" rel="stylesheet" href="css/billetes_css.css">
+</head>
+<body>
+    <div id="container">
+        <div id="titulo">¿Cuantos<br>billetes hay?</div>
+        <div id="cuadroMontoIngresado">
+            <div id="monto"><span id="totalMonto" class="fuente">S/.&nbsp;<span id="total"></span></span></div>
+            <div id="tituloMonto" class="colorTitulo"><span id="titulo1" class="fuente">Monto Ingresado</span></div>
+        </div>
+        <div id="cuadrosBilletes">
+            <div class="billetes" id="bill200">
+                <div class="tipoBilletes colorTitulo"><span class="fuente b">Billetes de S/.200</span></div>
+                <div class="cantidadBilletes" id="S_200"><span id="_200" class="fuente tamMontos tamNroBilletes"></span></div>
+            </div>
+            <div class="billetes" id="bill100">
+                <div class="tipoBilletes colorTitulo"><span class="fuente b">Billetes de S/.100</span></div>
+                <div class="cantidadBilletes" id="S_100"><span id="_100" class="fuente tamMontos tamNroBilletes"></span></div>
+            </div>
+            <div class="billetes" id="bill50">
+                <div class="tipoBilletes colorTitulo"><span class="fuente b">Billetes de S/.50</span></div>
+                <div class="cantidadBilletes" id="S_50"><span id="_50" class="fuente tamMontos tamNroBilletes"></span></div>
+            </div>
+            <div class="billetes" id="bill20">
+                <div class="tipoBilletes colorTitulo"><span class="fuente b">Billetes de S/.20</span></div>
+                <div class="cantidadBilletes" id="S_20"><span id="_20" class="fuente tamMontos tamNroBilletes"></span></div>
+            </div>
+            <div class="billetes" id="bill10">
+                <div class="tipoBilletes colorTitulo"><span class="fuente b">Billetes de S/.10</span></div>
+                <div class="cantidadBilletes" id="S_10"><span id="_10" class="fuente tamMontos tamNroBilletes"></span></div>
+            </div>
+        </div>
+        <div id="cuadrosOtros">
+            <div class="separacion">
+                <div id="numero"><span id="totalBilletes" class="fuente"></span></div>
+                <div id="tituloNumero"><span class="fuente otro">Billetes totales</span></div>
+            </div>
+            <div class="separacion">
+                <div id="totalMonedas"><span id="monedasSobrantes" class="fuente">S/.&nbsp;<span id="sobrante"></span></span></div>
+                <div id="monedas"><span class="fuente otro">Monedas restantes</span></div>
+            </div>
+        </div>
+        <footer>Copyright &#169; 2021 &#124; Ricardo Pelaez</footer>
+    </div>
+    <script src="js/billetes.js"></script>
+</body>
+</html>

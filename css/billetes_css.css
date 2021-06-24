@@ -1,0 +1,243 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: titulo;
+    src: url('fonts/KGChasingCars.ttf');
+}
+@font-face {
+    font-family: general;
+    src: url('fonts/Warung\ Kopi\ Bold.otf');
+}
+body{
+    background-image: url('images/fondoBilletes.jpg');
+}
+#container{
+    width: 100vw;
+    height: 118vh;
+    font-family: general;
+    background-color: rgba(135, 218, 224, 0.616);
+}
+/*Titulo*/
+#titulo{
+    width: 100%;
+    top: 5%;
+    position: absolute;
+    text-align: center;
+    font-family: titulo;
+    font-size: 12.2vh;
+    color: rgb(38, 147, 197);
+}
+
+/*Monto ingresado*/
+#cuadroMontoIngresado{
+    width: 84%;
+    height: 10%;
+    left: 8%;
+    top: 37%;
+    position: absolute;
+
+}
+#tituloMonto{
+    width: 65%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+
+}
+#monto{
+    width: 37%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
+#totalMonto{
+    width: 100%;
+    line-height: 9vh;
+    font-size: 2vw;
+    color: black;
+}
+
+#titulo1{
+    width: 100%;
+    line-height: 9.5vh;
+    font-size: 2vw;
+}
+
+/*Billetes*/
+#cuadrosBilletes{
+    width: 84%;
+    height: 25%;
+    left: 8%;
+    top: 55%;
+    position: absolute;
+}
+.billetes{
+    width: 20%;
+    height: 100%;
+    position: absolute;  
+    line-height: 14vh;
+}
+#bill200{
+    left: 0%;
+}
+#bill100{
+    left: 20%;
+}
+#bill50{
+    left: 40%;
+}
+#bill20{
+    left: 60%;
+}
+#bill10{
+    left: 80%;
+}
+
+.tipoBilletes{
+    width: 86%;
+    height: 40%;
+    margin-left: 7%;
+    border-radius: 10px;
+    line-height: 10vh;
+}
+.cantidadBilletes{
+    width: 86%;
+    height: 60%;
+    margin-left: 7%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tamMontos{
+    width: 86%;
+    line-height: 15vh;
+}
+
+.b{
+    width: 85%;
+    line-height: 10vh;
+}
+
+/*Total de billetes y monedas*/
+#cuadrosOtros{
+    width: 82%;
+    height: 10%;
+    left: 9%;
+    top: 93%;
+    position: absolute;
+}
+.separacion{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#tituloNumero{
+    width: 25%;
+    height: 100%;
+    left: 3%;
+    background-color: rgb(38, 147, 197);;
+    border-radius: 20px;
+    position: absolute;
+}
+#numero{
+    width: 21%;
+    height: 90%;
+    top: 5%;
+    left: 26%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    padding-left: 1vw;
+}
+#totalMonedas{
+    width: 21%;
+    height: 90%;
+    top: 5%;
+    left: 76%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+}
+#monedas{
+    width: 25%;
+    height: 100%;
+    left: 53%;
+    background-color: rgb(38, 147, 197);;
+    border-radius: 20px;
+    position: absolute;
+}
+
+#totalBilletes{
+    width: 86%;
+    line-height: 9vh;
+    color: black;
+    font-size: 1.8vw;
+}
+
+#monedasSobrantes{
+    width: 100%;
+    line-height: 9vh;
+    color: black;
+    font-size: 1.8vw;
+}
+.otro{
+    width: 100%;
+    line-height: 10vh;
+}
+
+footer{
+    width: 100%;
+    height: 7%;
+    top: 111%;
+    position: absolute;
+    text-align: center;
+    font-size: 3vh;
+    padding-top: 3vh;
+    background-color: rgba(106, 127, 131, 0.568);
+    color: white;
+}
+.fuente{
+    position: absolute;
+    text-align: center;
+    font-size: 1.65vw;
+    color: white;
+}
+
+.colorTitulo{
+    background-color: rgb(38, 147, 197);
+}
+.tamNroBilletes{
+    font-size: 4vw;
+    text-shadow: 1px 1px 3px black, 0 0 1em rgb(2, 103, 255), 0 0 0.4em rgb(2, 103, 255);
+}
+
+#S_200{
+    background-image: url('images/200.jpg');
+    background-size: 100%;
+}
+#S_100{
+    background-image: url('images/100.jpg');
+    background-size: 100%;
+}
+#S_50{
+    background-image: url('images/50.jpg');
+    background-size: 100%;
+}
+#S_20{
+    background-image: url('images/20.jpg');
+    background-size: 100%;
+}
+#S_10{
+    background-image: url('images/10.jpg');
+    background-size: 100%;
+}
+
+#_200:hover, #_100:hover, #_50:hover, #_20:hover, #_10:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+}
